@@ -3,9 +3,7 @@ package mensajes;
 import java.io.Serializable;
 
 public abstract class Mensaje implements Serializable{
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	private MensajeType tipo;
 	private String origen;
